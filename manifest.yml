@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mqsldkjfmlkj1241234
+  host: mqsldkjfmlkj1241234
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-or
+  - performance-monitoring-auto
